@@ -179,17 +179,17 @@ export default {
 							</RouterLink>
 						</li>
 					</ul>
-				</div>
-				<div class="absolute left-0 justify-start p-4 space-x-4 w-full lg:flex">
-					<a @click="logout"
-						class="flex items-center p-2 text-base text-gray-300 cursor-alias hover:bg-gray-600 font-semibold rounded-full group">
-						<svg class="ms-3 w-4 h-4 text-gray-300 transition duration-75" aria-hidden="true"
-							xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-								d="M4 8h11m0 0-4-4m4 4-4 4m-5 3H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h3" />
-						</svg>
-						<span class="flex-1 ml-1 mr-3 whitespace-nowrap">Logout</span>
-					</a>
+					<div class="justify-start mt-5 ml-1 space-x-4 lg:flex">
+						<a @click="logout"
+							class="flex items-center p-2 text-base text-gray-300 cursor-alias bg-gray-700 hover:bg-gray-600 font-semibold rounded-full group">
+							<svg class="ms-3 w-4 h-4 text-gray-300 transition duration-75" aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
+								<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+									d="M4 8h11m0 0-4-4m4 4-4 4m-5 3H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h3" />
+							</svg>
+							<span class="flex-1 ml-1 mr-3 whitespace-nowrap">Logout</span>
+						</a>
+					</div>
 				</div>
 			</aside>
 		</div>
