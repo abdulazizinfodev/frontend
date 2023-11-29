@@ -180,7 +180,7 @@ export default {
 						</li>
 					</ul>
 				</div>
-				<div class="absolute bottom-0 left-0 justify-start p-4 space-x-4 w-full lg:flex">
+				<div class="absolute left-0 justify-start p-4 space-x-4 w-full lg:flex">
 					<a @click="logout"
 						class="flex items-center p-2 text-base text-gray-300 cursor-alias hover:bg-gray-600 font-semibold rounded-full group">
 						<svg class="ms-3 w-4 h-4 text-gray-300 transition duration-75" aria-hidden="true"

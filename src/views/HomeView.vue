@@ -131,7 +131,9 @@ export default defineComponent({
     <section class="bg-gray-800 ml-4 mr-4 rounded-xl" v-else>
         <div class="p-5 text-center">
             <div class="md:p-12 p-3 shadow bg-gradient-to-r from-[#2b2b45] to-[#0d0852] rounded-xl">
-                <h3 class="text-2xl font-serif font-semibold leading-7 text-gray-200">NOXONFX ONLAYN TA’LIM PLATFORMASI</h3>
+                <h3 class="text-2xl font-serif font-semibold leading-7 text-gray-200">
+                    NOXON AKADEMIY 3.0 ONLAYN TA’LIM PLATFORMASI
+                </h3>
                 <p class="text-xl font-mono mt-5 leading-8 text-gray-200">
                     Tradingga oid kasblarni o’rgatamiz
                 </p>
