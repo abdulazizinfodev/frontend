@@ -172,7 +172,7 @@ export default {
                     </p>
                 </div>
                 <div class="px-8 pb-4">
-                    <video class="w-full h-auto max-w-full rounded-lg" controls
+                    <video class="w-full h-auto max-w-full rounded-lg" controls controlsList="nodownload"
                         poster="https://qosnetworking.com/wp-content/uploads/2023/05/video-poster-768x432.jpg">
                         <source :src="video.video" type="video/mp4">
                         Browseringiz ushbu videoni ocha olmaydi.
